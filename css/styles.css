@@ -642,6 +642,8 @@ address a:focus {
   width: 24px;
   height: 24px;
 
+  color: var(--navy-blue);
+
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 
@@ -654,11 +656,13 @@ address a:focus {
 .modal-close-button:focus {
   background-color: var(--ocean);
   border: none;
+  color: var(--white);
 }
 
 .modal-close-icon {
-  fill: var(--navy-blue);
   display: block;
+
+  fill: currentColor;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
