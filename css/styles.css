@@ -681,7 +681,6 @@ address a:focus {
 
 .footer-container {
   display: flex;
-  gap: 120px;
   flex-direction: row;
   align-items: baseline;
 }
